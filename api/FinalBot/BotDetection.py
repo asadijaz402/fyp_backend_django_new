@@ -80,7 +80,7 @@ def getname(name):
     z = checking2[features1].iloc[:,:]
 
     #DecisionTree Model
-    with open('D:\\Django\\project\\api\\FinalBot\\DTModel','rb') as f:
+    with open('api\FinalBot\DTModel','rb') as f:
         mp = pickle.load(f)
 
     z_pred_test = mp.predict(z)

@@ -24,7 +24,7 @@ def float_range(start, stop, step):
 
 
 def detecting_fake_news(var):
-    load_model = pickle.load(open('D:\\Django\\project\\api\\model.sav', 'rb'))
+    load_model = pickle.load(open('model.sav', 'rb'))
     prediction = load_model.predict([var])
     prob = load_model.predict_proba([var])
     pred = prediction[0]*100
