@@ -20,6 +20,7 @@ import pandas as pd
 
 
 def gettrends():
+    print('asad')
     consumer_key = '25SjEQNdimGLs9BNcAfbJW3dA'
     consumer_secret = 'RTt7e2m4iWwbXUUHyH4Vn7YRm6jpoQmm4m8RhedqohQBNbyYLU'
     access_key = '755246834826838016-GPchEozsoRFTm10LbSbUKyG2NlIoLOR'
